@@ -324,11 +324,11 @@ display: inline;
 }
 
 .social{
-    position: absolute;
-    font-size: 30px;
-    padding-top: 10px;
-    text-decoration: none;
-    color: black;
+  position: absolute;
+  font-size: 30px;
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
 }
 
 .fa {
@@ -339,12 +339,6 @@ display: inline;
 .fa:hover{
     text-decoration: none;
     color: grey;
-}
-
-.fa-snapchat-ghost{
-    background: rgb(255, 255, 0);
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
@@ -741,7 +735,7 @@ display: inline;
   margin-right: 30px;
   background-color: transparent;
   color: #323a4d;
-  border-radius: 25px;
+  border-radius: 50px;
   border-width: 1px;
   border-color: #323a4d;
   cursor: pointer;
@@ -966,6 +960,7 @@ display: inline;
     min-height: 200px;
     height: 300px;
     left: 800px;
+    text-align: center;
   }
 
 #p3 {
@@ -981,6 +976,7 @@ display: inline;
   font-size: 20px;
   margin-top: 20px;
   text-align: center;
+  line-height: 40px;
 }
 
 
@@ -1051,39 +1047,14 @@ display: inline;
 /* -- Page 5 -- */
 
 .s6 h1{
-  font-size: 2.5rem;
-  margin-left: 10%;
-}
-
-table{
-  width:65%;
+  font-size: 40px;
+  line-height: 150px;
   text-align: center;
- }
- 
- table p{
- 
- font-size: 12px;
- }
- 
- table img{
-   border-radius: 50%;
-   object-fit:cover; 
-   height: 200px;
-   width: 200px;
- }
- 
- .fp-tableCell{
-    padding-top: 70px;
-    padding-bottom: 70px;
-    background:#f7f7f7; 
-    letter-spacing: 1.3px;
- }
- 
- .fp-tableCell a {
- color: black;
- text-decoration:none;
- }
-
+  
+}
+.hover:hover{
+  transform: scale(1.02);
+}
 
 
 /* -- Page 6 --*/
@@ -1108,7 +1079,7 @@ table{
 
 .aboutText{
   color: #323a4d;
-  font-size: 16px;
+  font-size: 18px;
   padding-top: 5px;
 }
 
@@ -1237,7 +1208,7 @@ table{
     
     #p2text{
       color: #323a4d;
-      font-size: 13px;
+      font-size: 18px;
       margin-top: 20px;
       text-align: center;
     }
@@ -1261,6 +1232,7 @@ table{
     top: 14%;
     height: 100px;
     left: 6%;
+    text-align: center;
   }
 
 
@@ -1273,9 +1245,10 @@ table{
 
   #p3text{
     color: #323a4d;
-    font-size: 13px;
+    font-size: 18px;
     margin-top: 20px;
     text-align: center;
+    line-height: 30px;
   }
 
   .lockPulledCAD {
@@ -1299,7 +1272,7 @@ table{
 
 #p4text{
   color: #323a4d;
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 20px;
   text-align: center;
 }
@@ -1348,39 +1321,13 @@ table{
 
 /* -- Page 5 -- */
 
-.s6 h1{
-  font-size: 2.5rem;
-  margin-left: 10%;
-}
-
-table{
-  width:65%;
+.s6 h1 {
+  font-size: 30px;
   text-align: center;
- }
- 
- table p{
- 
- font-size: 12px;
- }
- 
- table img{
-   border-radius: 50%;
-   object-fit:cover; 
- }
- 
- .fp-tableCell{
-    padding-top: 70px;
-    padding-bottom: 70px;
-    background:#f7f7f7; 
-    letter-spacing: 1.3px;
- }
- 
- .fp-tableCell a {
- color: black;
- text-decoration:none;
- }
+  padding-top: 80px;
+  padding-bottom: 30px;
 
-
+}
     
 /* -- Page 6 -- */
 
@@ -1397,7 +1344,7 @@ table{
 
 
 .s7 h1{
-  font-size: 20px;
+  font-size: 30px;
   }
 
 
@@ -1467,7 +1414,7 @@ table{
     
     #p2text{
       color: #323a4d;
-      font-size: 15px;
+      font-size: 18px;
       margin-top: 20px;
       text-align: center;
     }
@@ -1491,6 +1438,7 @@ table{
         top: 14%;
         height: 100px;
         left: 12%;
+        text-align: center;
       }
     
     
@@ -1503,9 +1451,12 @@ table{
     
       #p3text{
         color: #323a4d;
-        font-size: 13px;
+        font-size: 18px;
         margin-top: 20px;
         text-align: center;
+        line-height: 30px;
+      
+  
       }
 
 
@@ -1513,7 +1464,7 @@ table{
       /* -- Page 4 -- */
 
 #p4 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   color: #323a4d;
   text-align: center;
@@ -1521,7 +1472,7 @@ table{
 
 #p4text{
   color: #323a4d;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 20px;
   text-align: center;
 }
@@ -1621,7 +1572,7 @@ table{
     
     #p2text{
       color: #323a4d;
-      font-size: 15px;
+      font-size: 18px;
       margin-top: 20px;
       text-align: center;
     }
@@ -1644,6 +1595,7 @@ table{
         top: 6%;
         height: 100px;
         left: 9%;
+        text-align: center;
       }
     
     
@@ -1651,14 +1603,16 @@ table{
         font-size: 30px;
         font-weight: bold;
         color: #323a4d;
+        text-align: left;
       }
     
     
       #p3text{
         color: #323a4d;
-        font-size: 15px;
+        font-size: 18px;
         margin-top: 20px;
         text-align: center;
+        line-height: 30px;
       }
 
     
@@ -1716,7 +1670,7 @@ table{
     
     #p2text{
       color: #323a4d;
-      font-size: 15px;
+      font-size: 18px;
       margin-top: 20px;
       text-align: center;
     }
@@ -1741,6 +1695,7 @@ table{
         top: 18%;
         height: 100px;
         left: 5%;
+        text-align: center;
       }
     
     
@@ -1753,16 +1708,18 @@ table{
     
       #p3text{
         color: #323a4d;
-        font-size: 15px;
+        font-size: 18px;
         margin-top: 20px;
         text-align: center;
+        line-height: 30px;
+
       }
 
 
             /* -- Page 4 -- */
 
 #p4 {
-  font-size: 37px;
+  font-size: 30px;
   font-weight: bold;
   color: #323a4d;
   text-align: center;
@@ -1770,7 +1727,7 @@ table{
 
 #p4text{
   color: #323a4d;
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 20px;
   text-align: center;
 }
