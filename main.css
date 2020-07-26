@@ -1052,10 +1052,49 @@ display: inline;
   text-align: center;
   
 }
-.hover:hover{
-  transform: scale(1.02);
+
+
+table{
+  text-align: center;
+ }
+
+ table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+ 
+ table p{
+ 
+ font-size: 12px;
+ padding-top:5px;
+ }
+ table h6{
+  font-size: 20px;
+  padding-top: 7px;
+
 }
 
+ table img{
+   border-radius: 50%;
+   object-fit:cover; 
+   width: 200px;
+   padding-bottom: 10px;
+ }
+ 
+table td{ 
+  padding: 20px;
+}
+ 
+ .team a:hover{
+ color: black;
+ text-decoration:none;
+
+ }
+ .team a{
+  color: black;
+  text-decoration:none;
+ 
+  }
 
 /* -- Page 6 --*/
 
@@ -1320,14 +1359,62 @@ display: inline;
 
 
 /* -- Page 5 -- */
-
 .s6 h1 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+
+table{
+  width:90%;
+  text-align: center;
+ 
+ }
+
+ table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+ tbody{
+  padding-right:30px;
+  padding-left: 30px;
+ }
+ 
+ table p{
+ 
+ font-size: 9px;
+ padding-top:2px;
+ }
+table h6{
+  font-size: 12px;
+  padding-top: 3px
 
 }
+ table img{
+   border-radius: 50%;
+   object-fit:cover; 
+   width: 70px;
+   padding-bottom: 5px;
+ }
+ 
+table td{ 
+  padding: 4px;
+
+}
+ 
+ .team a:hover{
+ color: black;
+ text-decoration:none;
+
+ }
+ .team a{
+  color: black;
+  text-decoration:none;
+ 
+  }
     
 /* -- Page 6 -- */
 
@@ -1518,8 +1605,12 @@ display: inline;
   left: 2%;
 }
 
-    
+ /* page 5 */
 
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
 
 
 }
@@ -1615,7 +1706,12 @@ display: inline;
         line-height: 30px;
       }
 
-    
+   /* page 5 */
+   
+   table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
     
 
 }
