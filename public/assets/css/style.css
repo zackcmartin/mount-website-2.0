@@ -6,12 +6,12 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color:black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #1b4355;
   text-decoration: none;
 }
 
@@ -26,6 +26,10 @@ h3{
 h1{
   padding-top: 2rem;
   padding-bottom: 10px;
+}
+
+p{
+  font-size: 18px;
 }
 /* nav */
 #navbar {
@@ -49,11 +53,6 @@ h1{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
 }
 
 .content {
@@ -181,60 +180,11 @@ section {
   color: #37517e;
 }
 
-.section-title h2::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
-
-.section-title h2::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #47b2e4;
-  bottom: 0;
-  left: calc(50% - 20px);
-}
-
 .section-title p {
   margin-bottom: 0;
+
 }
 
-/*--------------------------------------------------------------
-# Cliens
---------------------------------------------------------------*/
-.cliens {
-  padding: 12px 0;
-  text-align: center;
-}
-
-.cliens img {
-  max-width: 45%;
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
-}
-
-.cliens img:hover {
-  -webkit-filter: none;
-  filter: none;
-  transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-  .cliens img {
-    max-width: 40%;
-  }
-}
 
 
 /*--------------------------------------------------------------
@@ -268,23 +218,15 @@ section {
   background: #fff;
 }
 
-.services .icon-box .icon {
-  margin-bottom: 10px;
-}
-
-.services .icon-box .icon i {
-  color: black;
-  font-size: 36px;
-  transition: 0.3s;
-}
-
 .services .icon-box h4 {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-
+.services .icon-box .icon{
+  padding-bottom: 12px;
+}
 .services .icon-box p {
   line-height: 24px;
   font-size: 18px;
@@ -295,24 +237,35 @@ section {
   transform: translateY(-10px);
 }
 
-.services .icon-box:hover h4 a {
-  color:black;
-}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  padding: 15px 50px;
+  padding: 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
 }
-.team .icon-box:hover {
-  transform: translateY(-10px);
+
+.team .row {
+  padding-bottom: 1rem;
 }
 
-.team .icon-box:hover h4 a {
-  color:black;
+.team .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+
+.team .icon-box p {
+  line-height: 24px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.team .icon-box:hover {
+  transform: translateY(-10px);
 }
 
 
